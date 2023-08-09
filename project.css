@@ -1,0 +1,57 @@
+body {
+    background-image: url("shinchan.webp");
+    background-size: cover;
+}
+
+.fa {
+    cursor: pointer;
+    margin: 5px;
+    padding-left: 280px;
+    height: 50px;
+    float: left;
+}
+
+.fa:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10%;
+    height: 40px;
+    width: 110px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    color: black;
+    border-color: blue;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.speak {
+    width: 600px;
+    height: 150px;
+    padding: 100px;
+    font-size: large;
+    float: center;
+}
+
+.speak input {
+    float: left;
+    width: 580px;
+    height: 145px;
+    font-size: x-large;
+    float: center;
+}
+
+.speak input:hover {
+    box-shadow: 5px 5px 5px 5px white;
+    border: 0px;
+}
